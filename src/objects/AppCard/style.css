@@ -1,0 +1,38 @@
+.app-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3.2rem;
+    border: 0.2rem solid var(--azul-royal);
+    background: var(--fundo-card-timer);
+    padding: 2.4rem;
+    margin: 0 auto;
+    width: 59rem;
+    max-width: 90%;
+}
+.app-card-timer {
+    color: var(--color-secondary);
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 1rem;
+    text-align: center;
+}
+.app-card .app-card-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.app-card-button.active  {
+    border-radius: 0.8rem;
+    background: var(--azul-royal);
+    font-weight: 600;
+}

@@ -1,0 +1,9 @@
+.app-text {
+    font-family: 'Unbounded', sans-serif;
+    line-height: 150%;
+    font-size: 4.2rem;
+    font-style: normal;
+    color: var(--color-secondary);
+    font-weight: 200;
+    max-width: 40rem;
+}

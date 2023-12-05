@@ -1,0 +1,20 @@
+.app__button--add-task {
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--lils);
+    border-radius: 3.2rem;
+    border: 0.2rem solid var(--lils);
+    width: 100%;
+    margin-top: 4rem;
+    padding: 1.8rem;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}

@@ -1,0 +1,27 @@
+html, body {
+    min-height: 100vh;
+    background: var(--main-bg-color);
+    font-size: 10px;
+}
+
+html[data-contexto="foco"] {
+    --main-bg-color: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
+}
+
+html[data-contexto="descanso-curto"] {
+    --main-bg-color: linear-gradient(180deg, #0F725C 0%, #041832 48.44%, #01080E 100%);
+}
+
+html[data-contexto="descanso-longo"] {
+    --main-bg-color: linear-gradient(180deg, #1875E9 0%, #041832 48.44%, #01080E 100%);
+}
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body {
+    background: url("./images/pattern.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

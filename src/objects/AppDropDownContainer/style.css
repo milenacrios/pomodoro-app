@@ -1,0 +1,26 @@
+.dropdown-container {
+    position: relative;
+}
+
+.app-section-task-header-ul {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 100%;
+    right: 0;
+    min-width: 24rem;
+    padding: 1.6rem;
+}
+
+.app-section-task-header-ul:hover,
+.app_button-more:hover ~ .app-section-task-header-ul {
+    display: block;
+    text-align: right;
+    border-radius: 0.8rem;
+    border: 0.2rem solid var(--azul-royal, #144480);
+    background: var(--fundo-modal-2, #1B293B);
+}
+
+.app-section-task-header-li {
+    margin: 1.6rem 0;
+}

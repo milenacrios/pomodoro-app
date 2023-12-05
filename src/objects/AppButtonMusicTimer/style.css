@@ -1,0 +1,11 @@
+.app-button-music-timer {
+    color: var(--color-secondary);
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    margin: 3.2rem;
+    text-align: center;
+}

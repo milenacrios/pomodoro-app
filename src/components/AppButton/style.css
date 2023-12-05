@@ -1,0 +1,14 @@
+.app-button {
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: none;
+    padding: 0.8rem;
+    color: var(--color-secondary);
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+

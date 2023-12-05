@@ -1,0 +1,25 @@
+.app-button-clear { 
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    gap: 0.8rem;
+}
+
+.app-button-clear {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #fff;
+    gap: 0.8rem;
+}
